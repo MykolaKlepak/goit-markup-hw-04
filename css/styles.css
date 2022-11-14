@@ -24,7 +24,8 @@ p {
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    color: #212121;     
+    color: #212121;      
+    margin: 0;   
 }
 
 ul {
@@ -40,6 +41,8 @@ a {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
@@ -292,10 +295,10 @@ img {
     background-color: #F5F4FA;
 }
 
-.container.team-main {
+/* .container.team-main {
     display: flex;
     flex-direction: column;
-}
+} */
 
 .team-title {
     font-weight: 700;
@@ -323,8 +326,8 @@ img {
 }
 
 .info {
-    margin-top: 30px;
-    margin-bottom: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .team-titleli {
@@ -344,6 +347,7 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-color-paragraphli);
+    margin-bottom: 16px;
 }
 
 
@@ -351,7 +355,6 @@ img {
     display: flex;    
     justify-content: center;
     gap: 10px;
-    margin-bottom: 30px;
 }
 
 .team-soc-item {
@@ -437,6 +440,7 @@ img {
 
 .footer .container {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-contacts {
@@ -510,8 +514,8 @@ img {
 
 .footer-soc {
     display: flex;
-    width: 206px;
-    padding-top: 12px;       
+    /* width: 206px; */
+    /* padding-top: 12px;        */
     margin-left: 70px;
     justify-content: flex-start;
     align-items: flex-start;
